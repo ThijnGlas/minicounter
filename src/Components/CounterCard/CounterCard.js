@@ -19,11 +19,11 @@ class CounterCard extends React.Component{
 
     render(){
             return(
-                <article class="counter">
-                    <section class="counter__number">
-                        <h1 class="counter__value">{this.state.number}</h1>
+                <article className="counter">
+                    <section className="counter__number">
+                        <h1 className="counter__value">{this.state.number}</h1>
                     </section>
-                    <section class="counter__buttons">
+                    <section className="counter__buttons">
                         <button onClick={this.decrease} className="counter__button counter__button--decrease">Decrease</button>
                         <button onClick={this.increase}className="counter__button counter__button--increase">Increase</button>
                     </section>

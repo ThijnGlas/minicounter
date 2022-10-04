@@ -3,6 +3,8 @@
     width: 40rem;
     background: #FFF5E4;
     border-radius: 1rem;
+    box-shadow: inset 0 -0.2rem 2rem 0 rgba(0,0,0,0.3),
+        0 1rem 2rem 0 rgba(0,0,0,0.3);
 }
 
 .counter__number{
@@ -33,6 +35,8 @@
     font-size: 100%;
     border-radius: 1rem;
     background: #EC7272;
+    box-shadow: inset 0 -0.2rem 2rem 0 rgba(0,0,0,0.3);
+
 }
 
 .counter__button--increase{

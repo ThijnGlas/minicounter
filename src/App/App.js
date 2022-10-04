@@ -1,4 +1,4 @@
-import CounterCard from "../CounterCard/CounterCard"
+import CounterCard from "../Components/CounterCard/CounterCard"
 import "./App.css";
 
 
